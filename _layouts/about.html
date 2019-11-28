@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
+  <title>{{ page.title }} - {{ site.title }}</title>
+  {% include head.html %}
+</head>
+<body>
+  {% include links.html %}
+  <div id="wrapper" class="typo typo-section">
+    <div id="about-content">
+      <div style="min-width: 250px">
+        <img class="avatar" src="https://tva1.sinaimg.cn/large/006y8mN6gy1g7ypbli06sj308f08fglv.jpg" width=230 height=230 alt="">
+        <h1>Jauzzz</h1>
+        <ul>
+          <li><a href="https://github.com/jauzzz" title="">GitHub(@jauzzz)</a></li>
+        </ul>
+      </div>
+    
+      <div style="font-family: serif; font-size: 150%; padding: 0 4% 0 4%;">        
+        <p>The acts of the mind, wherein it exerts its power over simple ideas, are chiefly these three:</p>
+        <p>   1. Combining several simple ideas into one compound one, and thus all complex ideas are made.</p>
+        <p>   2. The second is bringing two ideas, whether simple or complex, together, and seeing them by one another so as to take a view of them at once, without uniting them into one, by which it gets all its ideas of relations.</p>
+        <p>   3. The third is separating them from all other ideas that accompany them in their real existence: this is called abstraction, and thus all its general ideas are made.</p>
+        <hr>
+        {% include disqus.html %}
+      </div>
+    </div> <!-- content -->
+  </div> <!-- wrapper -->
+  {% include footer.html %}
+  </body>
+</html>

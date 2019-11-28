@@ -1,0 +1,18 @@
+title:            Jauzzz
+description:      Coding is a lifestyle.
+url:              jauzzz.github.io 
+# signoff:          DeathKing
+# disqus_shortname: deathking
+
+safe:             false
+
+links:
+  - name:         文章
+    url:          /  
+  - name:         关于
+    url:          /about
+highlighter:      pygments
+permalink:        pretty
+markdown:         kramdown
+kramdown:
+  extensions:     ["tables"]
