@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='tycs - Jauzzz' property='og:title' />
+  <title>tycs - Jauzzz</title>
+  <link rel="stylesheet" media="all" href="/stylesheets/typo.css">
+<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+
+
+<script type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+      TeX: { 
+        equationNumbers: { autoNumber: "all" }, 
+        extensions: ["enclose.js","color.js"]
+      },
+      extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+      tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          displayMath: [['$$', '$$'], ['\\[','\\]']],
+          skipTags: ['script', 'noscript', 'style', 'textarea'],
+      },
+      "HTML-CSS": {
+        fonts: ["Latin-Modern"]
+      }
+  });
+  MathJax.Hub.Queue(function() {
+        // Fix <code> tags after MathJax finishes running. This is a
+        // hack to overcome a shortcoming of Markdown. Discussion at
+        // https://github.com/mojombo/jekyll/issues/199
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i = 0; i < all.length; i += 1) {
+            if(all[i].SourceElement().parentNode.className.indexOf('has-jax') == -1)
+            {
+              all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+            if(all[i].SourceElement().parentNode.className.indexOf('no-highlight') == -1)
+            {
+              all[i].SourceElement().parentNode.className += ' no-highlight';
+            }
+        }
+  });
+</script>
+
+<!-- - -->
+<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+<meta content='text/html; charset=utf-8' http-equiv='content-type' />
+
+  <meta content='jauzzz.github.io/2019/11/28/tycs/' property='og:url' />
+  <meta content="学习顺序：  计算机架构 -&gt; 操作系统/数据库  计算机网络 + 操作系统 -&gt; 分布式系统            Subject      Why Study      Plan                  Pr..." property='og:description' />
+  <meta content="article" property="og:type" />
+
+<!-- - -->
+
+</head>
+<body>
+  <div id="nav">
+  
+  <div class="nav-item">
+    <a target="_top" href="/" title="" class="nav-item">文章</a>
+  </div>
+  
+  <div class="nav-item">
+    <a target="_top" href="/about" title="" class="nav-item">关于</a>
+  </div>
+  
+</div>
+  <div id="wrapper" class="typo typo-section textwrap">
+    <div id="article-content">
+      <header id="header">
+        <h1 class="title"> tycs </h1>
+        <div class="subtitle">Teach yourself computer science</div>
+      </header><!-- /header -->
+      <section class="post">
+        <p>学习顺序：</p>
+
+<ul>
+  <li>计算机架构 -&gt; 操作系统/数据库</li>
+  <li>计算机网络 + 操作系统 -&gt; 分布式系统</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Subject</strong></th>
+      <th><strong>Why Study</strong></th>
+      <th><strong>Plan</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Programming</td>
+      <td>不要做一个“永远没彻底搞懂”诸如递归等概念的程序员</td>
+      <td><a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html">SICP Book</a><br /><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/">MIT 6.001: SICP</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Easier</td>
+      <td><a href="http://www.htdp.org/">HTDP</a><br /><a href="https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter">CS61A Lecture</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Harder</td>
+      <td><a href="https://book.douban.com/subject/1782316/">Concepts, Techniques, and Models of Computer Programming</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td><a href="http://exercism.io/">Extra excersice</a></td>
+    </tr>
+    <tr>
+      <td>Computer Architecture</td>
+      <td>如果你对于计算机如何工作没有具体的概念，那么你所做出的所有高级抽象都是空中楼阁</td>
+      <td>✨ <a href="http://www.nand2tetris.org/">Nand2teris</a><br />✨ <a href="https://www.coursera.org/learn/build-a-computer">Nand2teris Course</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td><a href="https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269">Computer Organization and Design</a><br /><a href="http://inst.eecs.berkeley.edu/~cs61c/sp15/">CS61C: Great Ideas in Computer Architecture</a></td>
+    </tr>
+    <tr>
+      <td>Operating Systems</td>
+      <td>你所写的代码，基本上都由操作系统来运行，因此你应当了解其运作的原理</td>
+      <td>✨ <a href="https://book.douban.com/subject/3037562/">汇编语言</a><br />👾 <a href="https://book.douban.com/subject/20492528/">x86：从实模式到保护模式</a><br />👾 <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/">OSTEP</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Explore the design decisions of specific operating systems</td>
+      <td><a href="https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/">Lion’s commentary on Unix</a><br /><a href="https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/">The Design and Implementation of the FreeBSD Operating System</a><br /><a href="https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/">Mac OS X Internals</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td><a href="https://pdos.csail.mit.edu/6.828/2016/xv6.html">MIT 6.828: xv6</a></td>
+    </tr>
+    <tr>
+      <td>Math for CS</td>
+      <td>计算机科学基本上是应用数学的一个“失控的”分支，因此学习数学将会给你带来竞争优势(离散数学)</td>
+      <td><a href="http://www.cs.elte.hu/~lovasz/dmbook.ps">lecture notes by László Lovász</a><br /><a href="https://book.douban.com/subject/33396340/">Mathematics for Computer Science</a> <br /><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/">Course: Mathematics for Computer Science</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>线性代数</td>
+      <td><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of linear algebra</a><br /><a href="https://book.douban.com/subject/34820335/">Gilbert Strang’s Book</a><br /><a href="https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/">Gilbert Strang’s Video</a></td>
+    </tr>
+    <tr>
+      <td>Algorithms and Data Structures</td>
+      <td>如果你不懂得如何使用栈、队列、树、图等常见数据结构，遇到有难度的问题时，你将束手无策</td>
+      <td>👾 <a href="https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/">The Algorithm Design Manual</a><br /><a href="https://www.youtube.com/watch?v=A2bFN3MyNDA&amp;list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp">Lecture: The Algorithm Design Manual</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td><a href="https://book.douban.com/subject/2124114/">How to Solve It</a><br /><a href="https://leetcode.com/">Excersice: Leetcode</a></td>
+    </tr>
+    <tr>
+      <td>Databases</td>
+      <td>对于多数重要程序，数据是其核心，然而很少人理解数据库系统的工作原理</td>
+      <td><a href="https://archive.org/details/UCBerkeley_Course_Computer_Science_186">CS186</a><br /><a href="http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf">Architecture of a Database System</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td><a href="https://book.douban.com/subject/2256069/">Readings in Database Systems</a><br /><a href="https://book.douban.com/subject/17915870/">Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World</a></td>
+    </tr>
+    <tr>
+      <td>Computer Networking</td>
+      <td>互联网已然势不可挡：理解工作原理才能解锁全部潜力</td>
+      <td><a href="https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/">Computer Networking: A Top-Down Approach</a><br /><a href="http://www-net.cs.umass.edu/wireshark-labs/">Wireshark labs</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td><a href="https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about">Lectures: Introduction to Computer Networking course</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Some Projects: an HTTP server, a UDP-based chat app, a <a href="http://jvns.ca/blog/2014/08/12/what-happens-if-you-write-a-tcp-stack-in-python/">mini TCP stack</a>, a proxy or load balancer, and a distributed hash table</td>
+    </tr>
+    <tr>
+      <td>Distributed systems</td>
+      <td>如今，多数系统都是分布式的</td>
+      <td><a href="https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/">Distributed Systems, 3rd Edition</a><br /><a href="https://www.youtube.com/watch?v=hBWfjkGKRas&amp;list=PLkcQbKbegkMqiWf7nF8apfMRL4P4sw8UL">MIT’s 6.824</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td><a href="http://dsrg.pdos.csail.mit.edu/papers/">Papers</a></td>
+    </tr>
+    <tr>
+      <td>Languages and Compilers</td>
+      <td>若你懂得编程语言和编译器如何工作，你就能写出更好的代码，更轻松地学习新的编程语言</td>
+      <td><a href="https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811">Compilers: Principles, Techniques &amp; Tools</a><br /><a href="https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about">Lecture: Compilers: Principles, Techniques &amp; Tools</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td><a href="https://smile.amazon.com/Language-Implementation-Patterns-Domain-Specific-Programming/dp/193435645X/">Language Implementation Patterns</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td><a href="https://github.com/kanaka/mal">Project: Make a Lisp</a></td>
+    </tr>
+    <tr>
+      <td>Programing Language Theory</td>
+      <td> </td>
+      <td><a href="https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf">practical foundations for programming languages</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+        <br>
+      </section>
+      
+    </div> <!-- content -->
+  </div> <!-- wrapper -->
+  <footer>
+</footer>
+  </body>
+</html>

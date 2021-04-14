@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jauzzz</title>
+    <description>Coding is a lifestyle.</description>
+    <link>jauzzz.github.io</link>
+    <atom:link href="jauzzz.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>tycs</title>
+        <description>&lt;p&gt;学习顺序：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;计算机架构 -&amp;gt; 操作系统/数据库&lt;/li&gt;
+  &lt;li&gt;计算机网络 + 操作系统 -&amp;gt; 分布式系统&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;Subject&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;strong&gt;Why Study&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;strong&gt;Plan&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Programming&lt;/td&gt;
+      &lt;td&gt;不要做一个“永远没彻底搞懂”诸如递归等概念的程序员&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html&quot;&gt;SICP Book&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/&quot;&gt;MIT 6.001: SICP&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Easier&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.htdp.org/&quot;&gt;HTDP&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter&quot;&gt;CS61A Lecture&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Harder&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://book.douban.com/subject/1782316/&quot;&gt;Concepts, Techniques, and Models of Computer Programming&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://exercism.io/&quot;&gt;Extra excersice&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Computer Architecture&lt;/td&gt;
+      &lt;td&gt;如果你对于计算机如何工作没有具体的概念，那么你所做出的所有高级抽象都是空中楼阁&lt;/td&gt;
+      &lt;td&gt;✨ &lt;a href=&quot;http://www.nand2tetris.org/&quot;&gt;Nand2teris&lt;/a&gt;&lt;br /&gt;✨ &lt;a href=&quot;https://www.coursera.org/learn/build-a-computer&quot;&gt;Nand2teris Course&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269&quot;&gt;Computer Organization and Design&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://inst.eecs.berkeley.edu/~cs61c/sp15/&quot;&gt;CS61C: Great Ideas in Computer Architecture&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Operating Systems&lt;/td&gt;
+      &lt;td&gt;你所写的代码，基本上都由操作系统来运行，因此你应当了解其运作的原理&lt;/td&gt;
+      &lt;td&gt;✨ &lt;a href=&quot;https://book.douban.com/subject/3037562/&quot;&gt;汇编语言&lt;/a&gt;&lt;br /&gt;👾 &lt;a href=&quot;https://book.douban.com/subject/20492528/&quot;&gt;x86：从实模式到保护模式&lt;/a&gt;&lt;br /&gt;👾 &lt;a href=&quot;http://pages.cs.wisc.edu/~remzi/OSTEP/&quot;&gt;OSTEP&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Explore the design decisions of specific operating systems&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/&quot;&gt;Lion’s commentary on Unix&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/&quot;&gt;The Design and Implementation of the FreeBSD Operating System&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/&quot;&gt;Mac OS X Internals&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://pdos.csail.mit.edu/6.828/2016/xv6.html&quot;&gt;MIT 6.828: xv6&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Math for CS&lt;/td&gt;
+      &lt;td&gt;计算机科学基本上是应用数学的一个“失控的”分支，因此学习数学将会给你带来竞争优势(离散数学)&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.cs.elte.hu/~lovasz/dmbook.ps&quot;&gt;lecture notes by László Lovász&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://book.douban.com/subject/33396340/&quot;&gt;Mathematics for Computer Science&lt;/a&gt; &lt;br /&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/&quot;&gt;Course: Mathematics for Computer Science&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;线性代数&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&quot;&gt;Essence of linear algebra&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://book.douban.com/subject/34820335/&quot;&gt;Gilbert Strang’s Book&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/&quot;&gt;Gilbert Strang’s Video&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Algorithms and Data Structures&lt;/td&gt;
+      &lt;td&gt;如果你不懂得如何使用栈、队列、树、图等常见数据结构，遇到有难度的问题时，你将束手无策&lt;/td&gt;
+      &lt;td&gt;👾 &lt;a href=&quot;https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/&quot;&gt;The Algorithm Design Manual&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=A2bFN3MyNDA&amp;amp;list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp&quot;&gt;Lecture: The Algorithm Design Manual&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://book.douban.com/subject/2124114/&quot;&gt;How to Solve It&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://leetcode.com/&quot;&gt;Excersice: Leetcode&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Databases&lt;/td&gt;
+      &lt;td&gt;对于多数重要程序，数据是其核心，然而很少人理解数据库系统的工作原理&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://archive.org/details/UCBerkeley_Course_Computer_Science_186&quot;&gt;CS186&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf&quot;&gt;Architecture of a Database System&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://book.douban.com/subject/2256069/&quot;&gt;Readings in Database Systems&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://book.douban.com/subject/17915870/&quot;&gt;Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Computer Networking&lt;/td&gt;
+      &lt;td&gt;互联网已然势不可挡：理解工作原理才能解锁全部潜力&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/&quot;&gt;Computer Networking: A Top-Down Approach&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://www-net.cs.umass.edu/wireshark-labs/&quot;&gt;Wireshark labs&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about&quot;&gt;Lectures: Introduction to Computer Networking course&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Some Projects: an HTTP server, a UDP-based chat app, a &lt;a href=&quot;http://jvns.ca/blog/2014/08/12/what-happens-if-you-write-a-tcp-stack-in-python/&quot;&gt;mini TCP stack&lt;/a&gt;, a proxy or load balancer, and a distributed hash table&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Distributed systems&lt;/td&gt;
+      &lt;td&gt;如今，多数系统都是分布式的&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/&quot;&gt;Distributed Systems, 3rd Edition&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hBWfjkGKRas&amp;amp;list=PLkcQbKbegkMqiWf7nF8apfMRL4P4sw8UL&quot;&gt;MIT’s 6.824&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://dsrg.pdos.csail.mit.edu/papers/&quot;&gt;Papers&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Languages and Compilers&lt;/td&gt;
+      &lt;td&gt;若你懂得编程语言和编译器如何工作，你就能写出更好的代码，更轻松地学习新的编程语言&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811&quot;&gt;Compilers: Principles, Techniques &amp;amp; Tools&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about&quot;&gt;Lecture: Compilers: Principles, Techniques &amp;amp; Tools&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://smile.amazon.com/Language-Implementation-Patterns-Domain-Specific-Programming/dp/193435645X/&quot;&gt;Language Implementation Patterns&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/kanaka/mal&quot;&gt;Project: Make a Lisp&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Programing Language Theory&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf&quot;&gt;practical foundations for programming languages&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
+        <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+        <link>jauzzz.github.io/2019/11/28/tycs/</link>
+        <guid isPermaLink="true">jauzzz.github.io/2019/11/28/tycs/</guid>
+      </item>
+    
+  </channel>
+</rss>
